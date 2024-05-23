@@ -4,8 +4,6 @@ import streamlit as st
 #from config import OPENAI_API_KEY
 os.environ['OPENAI_API_KEY']
 
-
-
 api_key = os.getenv('OPENAI_API_KEY')
 
 openai.api_key = api_key
